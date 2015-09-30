@@ -1,9 +1,12 @@
 # ud036
-Project: Movie Trailer Website  - Daniel R. Northcutt
+Project: Movie Trailer Website  - [Daniel R. Northcutt]
 ==============================
 
-Write server-side code to store a list of your favorite movies, including box art imagery and a 
-movie trailer URL. Use your code to generate a static web page allowing visitors to browse the 
+Objectives
+----------
+
+Write server-side code to store a list of favorite movies, including box art imagery and a 
+movie trailer URL. Use the code to generate a static web page allowing visitors to browse the 
 movies and watch the trailers.
 
 
