@@ -17,7 +17,7 @@ should all be located in the same directory.
 
 """
 import media
-import fresh_tomato
+import brazen_pears
 
 # Images from Wikipedia.com
 # Date / Stars from IMDb.com
@@ -25,7 +25,7 @@ import fresh_tomato
 
 blade = media.Movie("Blade Runner",
                     ('The story of a sort of bounty hunter charged with '
-                    'finding and terminating androids who have run amok.'),
+                     'finding and terminating androids who have run amok.'),
                     "https://goo.gl/dpmq21",
                     "https://youtu.be/W_9rhPDLHWk",
                     "1982",
@@ -35,8 +35,8 @@ blade = media.Movie("Blade Runner",
                     "http://www.rottentomatoes.com/m/blade_runner_1982/")
 
 starwars = media.Movie("Star Wars: Episode V",
-                       "A young man trains to be a wizard while his friends "
-                       "stalked by a heavy-breathing magical cyborg.",
+                       ('A young man trains to be a wizard while his friends '
+                        'stalked by a heavy-breathing magical cyborg.'),
                        "https://goo.gl/i0clbu",
                        "https://youtu.be/JFA-Oip1wF8",
                        "1980",
@@ -46,9 +46,9 @@ starwars = media.Movie("Star Wars: Episode V",
                        "http://www.rottentomatoes.com/m/empire_strikes_back/")
 
 dude = media.Movie("Dude, Where\'s My Car?",
-                   "Stoners wake up after a party and... pudding, aliens, "
-                   "mysteriously powerful things, powerfully mysterious "
-                   "things, Zoltan!",
+                   ('Stoners wake up after a party and... pudding, aliens, '
+                    'mysteriously powerful things, powerfully mysterious '
+                    'things, Zoltan!'),
                    "https://goo.gl/XPLccy",
                    "https://youtu.be/B9gI8hk84Xs",
                    "2000",
@@ -58,9 +58,9 @@ dude = media.Movie("Dude, Where\'s My Car?",
                    "http://www.rottentomatoes.com/m/dude_wheres_my_car/")
 
 clockwork = media.Movie("A Clockwork Orange",
-                        "A young sociopath, who loves classical music, rape, "
-                        "and \"ultraviolence,\" does what he does and gets "
-                        "caught. Gets experimented upon... hates Beethovan.",
+                        ('A young sociopath, who loves classical music, rape, '
+                         'and \"ultraviolence,\" does what he does and gets '
+                         'caught. Gets experimented upon... hates Beethovan.'),
                         "https://goo.gl/x3Jb5n",
                         "https://youtu.be/G7fO3bzPeBQ",
                         "1971",
@@ -70,10 +70,10 @@ clockwork = media.Movie("A Clockwork Orange",
                         "http://www.rottentomatoes.com/m/clockwork_orange/")
 
 bride = media.Movie("A Princess Bride",
-                    "A sick boy\'s grandfather reads him a story...leaves in "
-                    "the mushy stuff, pirates, sword fights, "
-                    "inconcievability, extra fingers, near death, and big "
-                    "rats.",
+                    ('A sick boy\'s grandfather reads him a story...leaves in '
+                     'the mushy stuff, pirates, sword fights, '
+                     'inconcievability, extra fingers, near death, and big '
+                     'rats.'),
                     "https://goo.gl/FV5SVn",
                     "https://youtu.be/njZBYfNpWoE",
                     "1987",
@@ -83,9 +83,9 @@ bride = media.Movie("A Princess Bride",
                     "http://www.rottentomatoes.com/m/princess_bride/")
 
 fight = media.Movie("Fight Club",
-                    "One man seeks to change... A group of men try to... "
-                    "Well... On second thought, I just can\'t talk about it. "
-                    "And, also, I can\'t talk about it.",
+                    ('One man seeks to change... A group of men try to... '
+                     'Well... On second thought, I just can\'t talk about it. '
+                     'And, also, I can\'t talk about it.'),
                     "https://goo.gl/SME71F",
                     "https://youtu.be/SUXWAEX2jlg",
                     "1999",
@@ -97,4 +97,4 @@ fight = media.Movie("Fight Club",
 
 movies = [blade, clockwork, dude, fight, bride, starwars]
 
-fresh_tomato.open_movies_page(movies)
+brazen_pears.open_movies_page(movies)
