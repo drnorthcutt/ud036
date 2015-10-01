@@ -1,7 +1,8 @@
 # ud036
 Project: Movie Trailer Website
-  - Daniel R. Northcutt
 ==============================
+***- Daniel R. Northcutt
+
 
 Objectives
 ----------
