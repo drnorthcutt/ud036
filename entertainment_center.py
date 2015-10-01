@@ -111,7 +111,7 @@ blade = media.Movie("Blade Runner",
 
 starwars = media.Movie("Star Wars: Episode V",
                        ('A young man trains to be a wizard while his friends '
-                        'stalked by a heavy-breathing magical cyborg.'),
+                        'are stalked by a heavy-breathing magical cyborg.'),
                        "https://goo.gl/i0clbu",
                        "https://youtu.be/JFA-Oip1wF8",
                        "1980",

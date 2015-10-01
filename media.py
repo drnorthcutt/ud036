@@ -4,12 +4,12 @@ import webbrowser
 
 
 class Movie():
-	"""Provides storage for movie related information."""
+    """Provide for storage of movie information and trailer play."""
 
     def __init__(self, movie_title, movie_storyline, poster_url,
                  trailer_url, movie_year, starring_actors, one_word, imdb_url,
                  rotten_tomatoes_url):
-        """Stores variables for a movie.
+        """Init and store variables for a movie.
 
         Args:
             movie_title (str):  The title of the movie.
@@ -40,5 +40,5 @@ class Movie():
         self.rotten_tomatoes_link = rotten_tomatoes_url
 
     def show_trailer(self):
-        """Shows the movie trailer."""
+        """Show the movie trailer."""
         webbrowser.open(self.trailer)
